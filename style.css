@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Roboto:wght@400;500&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+h1{
+  text-align: center;
+}
+ h2 {
+    margin-top: 16px;
+    font-size: 41px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+h3{
+    color:white;
+}
+.load{
+    font-size: small;
+   
+  }
+.logo-text a,
+.btn {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4em;
+    font-weight: 500;
+    color: #e9ebea;
+    text-decoration: none;
+}
+a{
+  font-family: "Montserrat", sans-serif;
+    font-size: 1.4em;
+    font-weight: 500;
+    color: #e9ebea;
+    text-decoration: none;
+}
+  
+.btn {
+    padding:6px 25px;
+    background-color: #00adb5;
+    border: none;
+    border-radius: 12px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+    
+  }
+.btn:hover {
+    background-color: rgba(127, 108, 108, 0.8);
+  }
+.cards {
+    display: table;
+  }
+  
+
+.card {
+    font-family:'Times New Roman', Times, serif;
+    width:350px;
+    overflow: hidden;
+    background: #16d0dd;
+    box-shadow: 0px 0px 12px black ;
+    display: inline-block;
+    flex-direction: column;
+    border-radius: 2rem;
+    margin: 2rem;
+    padding: 20px;
+    color:#0d0e0e;
+  }
+
+  
+.profile-image img {
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    margin-top: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    border: 10px solid  #a7f4f8 ;
+    transition-duration: 0.4s;
+    transition-property: transform;
+  }
+  
+.profile-image img:hover {
+    transform: scale(1.1);
+  }
+  
+  .card-content p {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 11px;
+    color: #121313 ;
+  }
+  
+.card-content .name{
+  text-decoration: underline;
+  padding-top: 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: #0d0e0e;
+    box-shadow: 0px 10px 15px 0px rgba(56, 52, 52, 0.5);
+    flex-wrap: wrap;
+ 
+  }
+
+.container-1{
+  text-align: center;
+}
